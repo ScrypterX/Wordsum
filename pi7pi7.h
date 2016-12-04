@@ -8,8 +8,7 @@ void subset_sum_recursive_pi7(std::list<int> numbers, int target, std::list<int>
         }
         // std::vector<std::string> numbersList;
         if(s == target)
-        {       //add code here
-                std::cout << "Words[";
+        {       std::cout << "Words[";
                 
                 for (std::list<int>::const_iterator cit = partial.begin(); cit != partial.end(); cit++)
                 {   if(*cit==1){
