@@ -1,2 +1,2 @@
-# wordsum
+# Wordsum
 Gets the sum of words
