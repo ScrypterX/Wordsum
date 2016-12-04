@@ -6,8 +6,7 @@ void subset_sum_recursive_eng(std::list<int> numbers, int target, std::list<int>
             s += *cit;
         }
         if(s == target)
-        {       //add code here
-                std::cout << "Words[";
+        {       std::cout << "Words[";
                 for (std::list<int>::const_iterator cit = partial.begin(); cit != partial.end(); cit++)
                 {   if(*cit==6){
                         std::cout << "a,";
