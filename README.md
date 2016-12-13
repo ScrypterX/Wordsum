@@ -1,2 +1,2 @@
 # Wordsum
-Gets the sum of words
+Gets the sum of words.
